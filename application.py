@@ -3,7 +3,7 @@ from flask import (Flask, jsonify, request, abort, render_template, logging)
 from flask import render_template
 from flask import request
 
-app = Flask(__name__)
+application = app = Flask(__name__)
 @app.route("/")
 def home():
     """Serve homepage template."""
@@ -50,7 +50,7 @@ def calculate():
 
 @app.route("/calculator", methods = ['POST', 'GET'])
 def index1():
-    return render_template("application.html")
+    return render_template("app.html")
 
 
 # Units Converter
