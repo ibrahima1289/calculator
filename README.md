@@ -1,6 +1,6 @@
 # Simple calculator
 
-## Introduction
+## I. Introduction
 
 For this project, we will build the web app with **Python Flask** first, and we will check if it works in the local host.<br/>
 Then, we will create a repo in github and upload all the files in that repo.<br/>
@@ -15,7 +15,7 @@ There are three features:
 * **Simple Calculator**: as said, this is a simple calculator that do basic calculation. You can only input two values per operation.
 * **Unites Converter** (*under construction*)
 
-## Setting up the environment in VS Code:
+## II. Setting up the environment in VS Code:
 
 Installation Flask in Python using visio code (Windows 10)
 Flask requires Python 3
@@ -47,7 +47,7 @@ In the templates folder, create a HTML file(s).
 Once the setup is done, import your codes in the correct files.
 Now you can check locally if your web app works.
 
-## Set up AWS Beanstalk
+## III. Set up AWS Beanstalk
 
 1. Create your [AWS account user](https://docs.aws.amazon.com/rekognition/latest/dg/setting-up.html).
 2. After you log in into your **AWS** root account, add a **IAM** user account with **AWS Beanstalk** privilages. Make sure to *attach existing policies* and save both access and secret key for future use. 
@@ -61,7 +61,7 @@ Now you can check locally if your web app works.
 
    ![](/images/Deploy4-21.PNG)
 
-## Set up Jenkins
+## IV. Set up Jenkins
 
 1. Create an EC2 on AWS and set up Jenkins. Here is a [tutorial](https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/) from AWS.
 2. Log in to your Jenkins account.
@@ -69,9 +69,15 @@ Now you can check locally if your web app works.
 4. Select AWSEB Deployment and Cloubees Creadentials > Install.
 5. After updating the plugins, create a new [project](https://aws.amazon.com/blogs/devops/setting-up-a-ci-cd-pipeline-by-integrating-jenkins-with-aws-codebuild-and-aws-codedeploy/) with github and AWS Beanstalk linked to the Jenkins project.
 6. When the project is done, build it on Jenkins.
-7. Go back to Elastic Beanstalk > Environments > Simplecalc-env, and launch the web application by following the [URL](http://simplecalc-env.eba-dmtxjiih.us-east-1.elasticbeanstalk.com/) in **Elastic Beanstalk > Environments**.
+7. Go back to Elastic Beanstalk > Environments > Simplecalc-env, and launch the web application by following the [URL](http://simplecalc-env.eba-dmtxjiih.us-east-1.elasticbeanstalk.com/) highlighted in red. 
 
+   ![](/images/Deploy4-23.PNG)
+   
+   Then it will take you to the web application home page.
+   
    ![](/images/Deploy4-22.PNG)
+
+
 
 
 ***Source:***
