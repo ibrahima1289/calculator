@@ -65,6 +65,8 @@ Now you can check locally if your web app works.
 3. Go to [Plugins Manager](https://www.jenkins.io/doc/book/managing/plugins/) > Type AWSEB under Avalaible plugins.
 4. Select AWSEB Deployment and Cloubees Creadentials > Install.
 5. After updating the plugins, create a new [project](https://aws.amazon.com/blogs/devops/setting-up-a-ci-cd-pipeline-by-integrating-jenkins-with-aws-codebuild-and-aws-codedeploy/) with github and AWS Beanstalk linked to the Jenkins project.
+6. When the project is done, build it on Jenkins.
+7. Go back to Elastic Beanstalk > Environments > Simplecalc-env, and launch the web application by following the [URL](http://simplecalc-env.eba-dmtxjiih.us-east-1.elasticbeanstalk.com/) in **Elastic Beanstalk > Environments**.
 
 
 ***Source:***
