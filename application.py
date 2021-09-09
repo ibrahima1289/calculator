@@ -45,7 +45,7 @@ def calculate():
 
     if op == '/':
           result = float(num1) / float(num2);
-     if op == 'sqrt':
+    if op == 'sqrt':
           result = float(num1)**(1/2);
     if op == 'x^2':
           result = float(num1)**2;
