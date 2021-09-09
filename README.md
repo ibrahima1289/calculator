@@ -1,5 +1,9 @@
 # Simple calculator
 
-Source:
+The calculator built in this repository is not complete yet. It is an ongoing project.
 
-https://github.com/vr025/Calculator-Application-Using-Python-Flask
+The resources used to build the simple calculator are from this [link](https://github.com/vr025/Calculator-Application-Using-Python-Flask).
+
+***Source:***
+
+   https://github.com/vr025/Calculator-Application-Using-Python-Flask
