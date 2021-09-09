@@ -84,6 +84,8 @@ From the source codes [vr025](https://github.com/vr025/Calculator-Application-Us
 This was easy to add because the syntax of the source code remains the same. I just had to copy/paste the line code and update the different variables.</br>
 For this, it is possible to upgrade this **Simple Calculator** into a **Scientific** one with more features.
 
+The errors I ran into was mostly indentation of the lines in the codes.
+
 
 ***Source:***
 1. AWS
