@@ -77,7 +77,12 @@ Now you can check locally if your web app works.
    
    ![](/images/Deploy4-22.PNG)
 
+## V. Chages made to the calculator
 
+Fron the source codes [vr025](https://github.com/vr025/Calculator-Application-Using-Python-Flask), I was able to add two new features which are calculating the **square root** of a number and **square** a number.
+
+This was easy to add because the syntax of the source code remains the same. I just had to copy/paste the line code and update the different variables.</br>
+For this, it is possible to upgrade this **Simple Calculator** into a **Scientific** one with more features.
 
 
 ***Source:***
