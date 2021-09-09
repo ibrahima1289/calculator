@@ -16,7 +16,7 @@ $(document).ready(function() {
 	
 	 $('.eq').click(function() {
 		
-        if (display.html() === '' || ('+-*/').indexOf(display.html()) != -1) return ;
+        if (display.html() === '' || ('+-*/sqrtx^2').indexOf(display.html()) != -1) return ;
         num2.val(display.html());
         
         $.post('/operation', {
@@ -67,9 +67,9 @@ $(document).ready(function() {
     $('.oprd').click(function() {
 		
         var op_new = $(this).val();
-        if (num1.val() !== '' &&  ('+-*/').indexOf(num1.val()) == -1 && op.val() !== '') {
+        if (num1.val() !== '' &&  ('+-*/sqrtx^2').indexOf(num1.val()) == -1 && op.val() !== '') {
             num2.val(display.html());
-            if (('+-*/').indexOf(num2.val()) != -1) return ;
+            if (('+-*/sqrtx^2').indexOf(num2.val()) != -1) return ;
             $.post('/operation', {
                 number1: num1.val(),
                 operator: op.val(),
