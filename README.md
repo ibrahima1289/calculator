@@ -57,6 +57,9 @@ Now you can check locally if your web app works.
    Select sampke application > create application.
 6. It may take few minutes to set up th environment. Be patient!
 7. See [AWS Elastic Beanstalk](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/GettingStarted.html) for more set up information.
+8. You should see this after the set up is done.
+
+   ![](/images/Deploy4-21.PNG)
 
 ## Set up Jenkins
 
@@ -67,6 +70,8 @@ Now you can check locally if your web app works.
 5. After updating the plugins, create a new [project](https://aws.amazon.com/blogs/devops/setting-up-a-ci-cd-pipeline-by-integrating-jenkins-with-aws-codebuild-and-aws-codedeploy/) with github and AWS Beanstalk linked to the Jenkins project.
 6. When the project is done, build it on Jenkins.
 7. Go back to Elastic Beanstalk > Environments > Simplecalc-env, and launch the web application by following the [URL](http://simplecalc-env.eba-dmtxjiih.us-east-1.elasticbeanstalk.com/) in **Elastic Beanstalk > Environments**.
+
+   ![](/images/Deploy4-22.PNG)
 
 
 ***Source:***
