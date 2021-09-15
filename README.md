@@ -76,6 +76,14 @@ Now you can check locally if your web app works.
    Then it will take you to the web application home page.
    
    ![](/images/Deploy4-22.PNG)
+   
+   First, the BMI calculator looks like this:
+   
+   ![](/images/Deploy4-24.PNG)
+   
+   And the simple, edited calculator lokks like this:
+   
+   ![](/images/Deploy4-25.PNG)
 
 ## V. Chages made to the calculator
 
